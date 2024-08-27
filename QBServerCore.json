@@ -70,10 +70,6 @@
       "dest": "./resources/[standalone]/bob74_ipl"
     },
     {
-      "action": "waste_time",
-      "milliseconds": 25000
-    },
-    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/safecracker",
       "ref": "main",
@@ -90,10 +86,6 @@
       "src": "https://github.com/qbcore-framework/progressbar",
       "ref": "main",
       "dest": "./resources/[standalone]/progressbar"
-    },
-    {
-      "action": "waste_time",
-      "milliseconds": 10000
     },
     {
       "action": "download_github",
@@ -142,10 +134,6 @@
       "dest": "./resources/[defaultmaps]/hospital_map"
     },
     {
-      "action": "waste_time",
-      "milliseconds": 10000
-    },
-    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/dealer_map",
       "ref": "main",
@@ -186,10 +174,6 @@
       "dest": "./resources/[qb]/qb-multicharacter"
     },
     {
-      "action": "waste_time",
-      "milliseconds": 10000
-    },
-    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-target",
       "ref": "main",
@@ -212,10 +196,6 @@
       "src": "https://github.com/qbcore-framework/qb-houserobbery",
       "ref": "main",
       "dest": "./resources/[qb]/qb-houserobbery"
-    },
-    {
-      "action": "waste_time",
-      "milliseconds": 25000
     },
     {
       "action": "download_github",
@@ -264,10 +244,6 @@
       "src": "https://github.com/qbcore-framework/qb-garages",
       "ref": "main",
       "dest": "./resources/[qb]/qb-garages"
-    },
-    {
-      "action": "waste_time",
-      "milliseconds": 10000
     },
     {
       "action": "download_github",
@@ -334,10 +310,6 @@
       "dest": "./resources/[qb]/qb-vineyard"
     },
     {
-      "action": "waste_time",
-      "milliseconds": 10000
-    },
-    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-weapons",
       "ref": "main",
@@ -360,10 +332,6 @@
       "src": "https://github.com/qbcore-framework/qb-streetraces",
       "ref": "main",
       "dest": "./resources/[qb]/qb-streetraces"
-    },
-    {
-      "action": "waste_time",
-      "milliseconds": 25000
     },
     {
       "action": "download_github",
@@ -402,10 +370,6 @@
       "dest": "./resources/[qb]/qb-diving"
     },
     {
-      "action": "waste_time",
-      "milliseconds": 10000
-    },
-    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-cityhall",
       "ref": "main",
@@ -422,10 +386,6 @@
       "src": "https://github.com/qbcore-framework/qb-pawnshop",
       "ref": "main",
       "dest": "./resources/[qb]/qb-pawnshop"
-    },
-    {
-      "action": "waste_time",
-      "milliseconds": 25000
     },
     {
       "action": "download_github",
@@ -492,10 +452,6 @@
       "dest": "./resources/[qb]/qb-doorlock"
     },
     {
-      "action": "waste_time",
-      "milliseconds": 25000
-    },
-    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-garbagejob",
       "ref": "main",
@@ -524,10 +480,6 @@
       "src": "https://github.com/qbcore-framework/qb-menu",
       "ref": "main",
       "dest": "./resources/[qb]/qb-menu"
-    },
-    {
-      "action": "waste_time",
-      "milliseconds": 10000
     },
     {
       "action": "download_github",
