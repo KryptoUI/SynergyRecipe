@@ -26,7 +26,7 @@
     },
     {
       "action": "query_database",
-      "file": "./qbcore.sql"
+      "path": "./qbcore.sql"
     },
     {
       "action": "waste_time",
@@ -106,10 +106,6 @@
       "dest": "./resources/[standalone]/PolyZone"
     },
     {
-      "action": "waste_time",
-      "milliseconds": 25000
-    },
-    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/LegacyFuel",
       "ref": "master",
@@ -146,10 +142,6 @@
       "dest": "./resources/[defaultmaps]/prison_map"
     },
     {
-      "action": "waste_time",
-      "milliseconds": 25000
-    },
-    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-core",
       "ref": "main",
@@ -172,6 +164,10 @@
       "src": "https://github.com/qbcore-framework/qb-multicharacter",
       "ref": "main",
       "dest": "./resources/[qb]/qb-multicharacter"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 10000
     },
     {
       "action": "download_github",
@@ -276,10 +272,6 @@
       "dest": "./resources/[qb]/qb-policejob"
     },
     {
-      "action": "waste_time",
-      "milliseconds": 25000
-    },
-    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-apartments",
       "ref": "main",
@@ -334,6 +326,10 @@
       "dest": "./resources/[qb]/qb-streetraces"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 25000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-storerobbery",
       "ref": "main",
@@ -368,6 +364,10 @@
       "src": "https://github.com/qbcore-framework/qb-diving",
       "ref": "main",
       "dest": "./resources/[qb]/qb-diving"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 10000
     },
     {
       "action": "download_github",
@@ -424,10 +424,6 @@
       "dest": "./resources/[qb]/qb-bankrobbery"
     },
     {
-      "action": "waste_time",
-      "milliseconds": 10000
-    },
-    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-banking",
       "ref": "main",
@@ -480,6 +476,10 @@
       "src": "https://github.com/qbcore-framework/qb-menu",
       "ref": "main",
       "dest": "./resources/[qb]/qb-menu"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 10000
     },
     {
       "action": "download_github",
