@@ -35,6 +35,7 @@
     {
       "action": "download_github",
       "src": "https://github.com/citizenfx/cfx-server-data",
+      "ref": "master",
       "subpath": "resources",
       "dest": "./resources/[cfx-default]"
     },
