@@ -21,6 +21,11 @@
       "src": "./tmp/qbcore/SynergyRecipe-main/qbcore.sql",
       "dest": "./qbcore.sql"
     },
+	{
+      "action": "move_path",
+      "src": "./tmp/qbcore/SynergyRecipe-main/[synergy-cfx-data]",
+      "dest": "./resources/[cfx-default]"
+    },
     {
       "action": "connect_database"
     },
@@ -33,13 +38,6 @@
       "milliseconds": 20000
     },
     {
-      "action": "download_github",
-      "src": "https://github.com/citizenfx/cfx-server-data",
-      "ref": "master",
-      "subpath": "resources",
-      "dest": "./resources/[cfx-default]"
-    },
-    {
       "action": "waste_time",
       "milliseconds": 30000
     },
@@ -48,17 +46,12 @@
       "path": "./resources/[cfx-default]/[gameplay]/chat"
     },
     {
-      "action": "move_path",
-      "src": "./tmp/qbcore/SynergyRecipe-main/[synergy-cfx-data]",
-      "dest": "./resources/[cfx-default]"
-    },
-    {
       "action": "waste_time",
       "milliseconds": 30000
     },
     {
       "action": "download_file",
-      "path": "./tmp/files/oxmysql.zip",
+      "path": "./tmp/files/tmp/oxmysql.zip",
       "url": "https://github.com/overextended/oxmysql/releases/download/v2.9.1/oxmysql.zip"
     },
     {
@@ -67,12 +60,12 @@
     },
     {
       "action": "unzip",
-      "src": "./tmp/files/oxmysql.zip",
+      "src": "./tmp/files/tmp/oxmysql.zip",
       "dest": "./resources/[standalone]/oxmysql"
     },
     {
       "action": "download_file",
-      "path": "./tmp/menuv.zip",
+      "path": "./tmp/files/tmp/menuv.zip",
       "url": "https://github.com/ThymonA/menuv/releases/download/v1.4.1/menuv_v1.4.1.zip"
     },
     {
@@ -81,7 +74,7 @@
     },
     {
       "action": "unzip",
-      "src": "./tmp/menuv.zip",
+      "src": "./tmp/files/tmp/menuv.zip",
       "dest": "./resources/[standalone]/menuv"
     },
     {
@@ -208,7 +201,7 @@
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/prison_map",
       "ref": "main",
-      "dest": "./resources/[defaultmaps]/prison_map"
+      "dest": "./resources/[defaultmaps]/[prison_map]"
     },
     {
       "action": "waste_time",
