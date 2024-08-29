@@ -4,21 +4,21 @@
       "action": "download_github",
       "src": "https://github.com/KryptoUI/SynergyRecipe",
       "ref": "main",
-      "dest": "./tmp/synergy/SynergyRecipe-main"
+      "dest": "/synergy/SynergyRecipe-main"
     },
     {
       "action": "move_path",
-      "src": "./tmp/synergy/SynergyRecipe-main/server.cfg",
+      "src": "/synergy/SynergyRecipe-main/server.cfg",
       "dest": "./server.cfg"
     },
     {
       "action": "move_path",
-      "src": "./tmp/synergy/SynergyRecipe-main/myLogo.png",
+      "src": "/synergy/SynergyRecipe-main/myLogo.png",
       "dest": "./myLogo.png"
     },
     {
       "action": "move_path",
-      "src": "./tmp/synergy/SynergyRecipe-main/qbcore.sql",
+      "src": "/synergy/SynergyRecipe-main/qbcore.sql",
       "dest": "./qbcore.sql"
     },
     {
@@ -34,456 +34,456 @@
     },
     {
       "action": "download_file",
-      "path": "./tmp/qb_core/oxmysql.zip",
+      "path": "/qb_core/oxmysql.zip",
       "url": "https://github.com/overextended/oxmysql/releases/download/v2.9.1/oxmysql.zip"
     },
     {
       "action": "unzip",
-      "src": "./tmp/qb_core/oxmysql.zip",
-      "dest": "./tmp/qb_core/oxmysql"
+      "src": "/qb_core/oxmysql.zip",
+      "dest": "/qb_core/oxmysql"
     },
     {
       "action": "download_file",
-      "path": "./tmp/qb_core/menuv.zip",
+      "path": "/qb_core/menuv.zip",
       "url": "https://github.com/ThymonA/menuv/releases/download/v1.4.1/menuv_v1.4.1.zip"
     },
     {
       "action": "unzip",
-      "src": "./tmp/qb_core/menuv.zip",
-      "dest": "./tmp/qb_core/menuv"
+      "src": "/qb_core/menuv.zip",
+      "dest": "/qb_core/menuv"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/bob74_ipl",
       "ref": "master",
-      "dest": "./tmp/files/[standalone]/bob74_ipl"
+      "dest": "/files/[standalone]/bob74_ipl"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/safecracker",
       "ref": "main",
-      "dest": "./tmp/files/[standalone]/safecracker"
+      "dest": "/files/[standalone]/safecracker"
     },
     {
       "action": "download_github",
       "src": "https://github.com/citizenfx/screenshot-basic",
       "ref": "master",
-      "dest": "./tmp/files/[standalone]/screenshot-basic"
+      "dest": "/files/[standalone]/screenshot-basic"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/progressbar",
       "ref": "main",
-      "dest": "./tmp/files/[standalone]/progressbar"
+      "dest": "/files/[standalone]/progressbar"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/interact-sound",
       "ref": "master",
-      "dest": "./tmp/files/[standalone]/interact-sound"
+      "dest": "/files/[standalone]/interact-sound"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/connectqueue",
       "ref": "master",
-      "dest": "./tmp/files/[standalone]/connectqueue"
+      "dest": "/files/[standalone]/connectqueue"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/PolyZone",
       "ref": "master",
-      "dest": "./tmp/files/[standalone]/PolyZone"
+      "dest": "/files/[standalone]/PolyZone"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/LegacyFuel",
       "ref": "master",
-      "dest": "./tmp/files/[standalone]/LegacyFuel"
+      "dest": "/files/[standalone]/LegacyFuel"
     },
     {
       "action": "download_github",
       "src": "https://github.com/AvarianKnight/pma-voice",
       "ref": "main",
-      "dest": "./tmp/files/[voice]/pma-voice"
+      "dest": "/files/[voice]/pma-voice"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-radio",
       "ref": "main",
-      "dest": "./tmp/files/[voice]/qb-radio"
+      "dest": "/files/[voice]/qb-radio"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/hospital_map",
       "ref": "main",
-      "dest": "./tmp/files/[defaultmaps]/hospital_map"
+      "dest": "/files/[defaultmaps]/hospital_map"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/dealer_map",
       "ref": "main",
-      "dest": "./tmp/files/[defaultmaps]/dealer_map"
+      "dest": "/files/[defaultmaps]/dealer_map"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/prison_map",
       "ref": "main",
-      "dest": "./tmp/files/[defaultmaps]/[prison_map]"
+      "dest": "/files/[defaultmaps]/[prison_map]"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-core",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-core"
+      "dest": "/files/[qb]/qb-core"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-scoreboard",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-scoreboard"
+      "dest": "/files/[qb]/qb-scoreboard"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-adminmenu",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-adminmenu"
+      "dest": "/files/[qb]/qb-adminmenu"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-multicharacter",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-multicharacter"
+      "dest": "/files/[qb]/qb-multicharacter"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-target",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-target"
+      "dest": "/files/[qb]/qb-target"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-vehiclesales",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-vehiclesales"
+      "dest": "/files/[qb]/qb-vehiclesales"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-vehicleshop",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-vehicleshop"
+      "dest": "/files/[qb]/qb-vehicleshop"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-houserobbery",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-houserobbery"
+      "dest": "/files/[qb]/qb-houserobbery"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-prison",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-prison"
+      "dest": "/files/[qb]/qb-prison"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-hud",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-hud"
+      "dest": "/files/[qb]/qb-hud"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-management",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-management"
+      "dest": "/files/[qb]/qb-management"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-weed",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-weed"
+      "dest": "/files/[qb]/qb-weed"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-lapraces",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-lapraces"
+      "dest": "/files/[qb]/qb-lapraces"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-inventory",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-inventory"
+      "dest": "/files/[qb]/qb-inventory"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-houses",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-houses"
+      "dest": "/files/[qb]/qb-houses"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-garages",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-garages"
+      "dest": "/files/[qb]/qb-garages"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-ambulancejob",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-ambulancejob"
+      "dest": "/files/[qb]/qb-ambulancejob"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-radialmenu",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-radialmenu"
+      "dest": "/files/[qb]/qb-radialmenu"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-crypto",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-crypto"
+      "dest": "/files/[qb]/qb-crypto"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-weathersync",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-weathersync"
+      "dest": "/files/[qb]/qb-weathersync"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-policejob",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-policejob"
+      "dest": "/files/[qb]/qb-policejob"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-apartments",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-apartments"
+      "dest": "/files/[qb]/qb-apartments"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-vehiclekeys",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-vehiclekeys"
+      "dest": "/files/[qb]/qb-vehiclekeys"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-mechanicjob",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-mechanicjob"
+      "dest": "/files/[qb]/qb-mechanicjob"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-phone",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-phone"
+      "dest": "/files/[qb]/qb-phone"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-vineyard",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-vineyard"
+      "dest": "/files/[qb]/qb-vineyard"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-weapons",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-weapons"
+      "dest": "/files/[qb]/qb-weapons"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-scrapyard",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-scrapyard"
+      "dest": "/files/[qb]/qb-scrapyard"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-towjob",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-towjob"
+      "dest": "/files/[qb]/qb-towjob"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-streetraces",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-streetraces"
+      "dest": "/files/[qb]/qb-streetraces"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-storerobbery",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-storerobbery"
+      "dest": "/files/[qb]/qb-storerobbery"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-spawn",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-spawn"
+      "dest": "/files/[qb]/qb-spawn"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-smallresources",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-smallresources"
+      "dest": "/files/[qb]/qb-smallresources"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-recyclejob",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-recyclejob"
+      "dest": "/files/[qb]/qb-recyclejob"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-crafting",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-crafting"
+      "dest": "/files/[qb]/qb-crafting"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-diving",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-diving"
+      "dest": "/files/[qb]/qb-diving"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-cityhall",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-cityhall"
+      "dest": "/files/[qb]/qb-cityhall"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-truckrobbery",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-truckrobbery"
+      "dest": "/files/[qb]/qb-truckrobbery"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-pawnshop",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-pawnshop"
+      "dest": "/files/[qb]/qb-pawnshop"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-minigames",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-minigames"
+      "dest": "/files/[qb]/qb-minigames"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-taxijob",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-taxijob"
+      "dest": "/files/[qb]/qb-taxijob"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-busjob",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-busjob"
+      "dest": "/files/[qb]/qb-busjob"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-newsjob",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-newsjob"
+      "dest": "/files/[qb]/qb-newsjob"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-jewelery",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-jewelery"
+      "dest": "/files/[qb]/qb-jewelery"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-bankrobbery",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-bankrobbery"
+      "dest": "/files/[qb]/qb-bankrobbery"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-banking",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-banking"
+      "dest": "/files/[qb]/qb-banking"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-clothing",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-clothing"
+      "dest": "/files/[qb]/qb-clothing"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-hotdogjob",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-hotdogjob"
+      "dest": "/files/[qb]/qb-hotdogjob"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-doorlock",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-doorlock"
+      "dest": "/files/[qb]/qb-doorlock"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-garbagejob",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-garbagejob"
+      "dest": "/files/[qb]/qb-garbagejob"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-drugs",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-drugs"
+      "dest": "/files/[qb]/qb-drugs"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-shops",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-shops"
+      "dest": "/files/[qb]/qb-shops"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-interior",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-interior"
+      "dest": "/files/[qb]/qb-interior"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-menu",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-menu"
+      "dest": "/files/[qb]/qb-menu"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-input",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-input"
+      "dest": "/files/[qb]/qb-input"
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-loading",
       "ref": "main",
-      "dest": "./tmp/files/[qb]/qb-loading"
+      "dest": "/files/[qb]/qb-loading"
     },
     {
       "action": "move_path",
-      "src": "./tmp/synergy/SynergyRecipe-main/[synergy-cfx-data]",
-      "dest": "./tmp/files/[cfx-default]"
+      "src": "/synergy/SynergyRecipe-main/[synergy-cfx-data]",
+      "dest": "/files/[cfx-default]"
     },
     {
       "action": "move_path",
-      "src": "./tmp/qb_core/oxmysql",
+      "src": "/qb_core/oxmysql",
       "dest": "./resources/[standalone]/oxmysql"
     },
     {
       "action": "move_path",
-      "src": "./tmp/qb_core/menuv",
+      "src": "/qb_core/menuv",
       "dest": "./resources/[standalone]/menuv"
     },
     {
       "action": "move_path",
-      "src": "./tmp/files",
+      "src": "/files",
       "dest": "./resources"
     },
     {
