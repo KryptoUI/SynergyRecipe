@@ -48,6 +48,15 @@
       "path": "./resources/[cfx-default]/[gameplay]/chat"
     },
     {
+      "action": "move_path",
+      "src": "./tmp/qbcore/SynergyRecipe-main/[synergy-cfx-data]",
+      "dest": "./resources/[cfx-default]"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 30000
+    },
+    {
       "action": "download_file",
       "path": "./tmp/files/oxmysql.zip",
       "url": "https://github.com/overextended/oxmysql/releases/download/v2.9.1/oxmysql.zip"
