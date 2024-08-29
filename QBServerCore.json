@@ -30,7 +30,7 @@
     },
     {
       "action": "waste_time",
-      "milliseconds": 10000
+      "milliseconds": 20000
     },
     {
       "action": "download_github",
@@ -38,6 +38,10 @@
       "ref": "master",
       "subpath": "resources",
       "dest": "./resources/[cfx-default]"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 30000
     },
     {
       "action": "remove_path",
@@ -49,6 +53,10 @@
       "url": "https://github.com/overextended/oxmysql/releases/download/v2.9.1/oxmysql.zip"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 20000
+    },
+    {
       "action": "unzip",
       "src": "./tmp/files/oxmysql.zip",
       "dest": "./resources/[standalone]/oxmysql"
@@ -57,6 +65,10 @@
       "action": "download_file",
       "path": "./tmp/menuv.zip",
       "url": "https://github.com/ThymonA/menuv/releases/download/v1.4.1/menuv_v1.4.1.zip"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 20000
     },
     {
       "action": "unzip",
@@ -70,10 +82,18 @@
       "dest": "./resources/[standalone]/bob74_ipl"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 20000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/safecracker",
       "ref": "main",
       "dest": "./resources/[standalone]/safecracker"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 20000
     },
     {
       "action": "download_github",
@@ -82,10 +102,18 @@
       "dest": "./resources/[standalone]/screenshot-basic"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 20000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/progressbar",
       "ref": "main",
       "dest": "./resources/[standalone]/progressbar"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 20000
     },
     {
       "action": "download_github",
@@ -94,10 +122,18 @@
       "dest": "./resources/[standalone]/interact-sound"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 20000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/connectqueue",
       "ref": "master",
       "dest": "./resources/[standalone]/connectqueue"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 20000
     },
     {
       "action": "download_github",
@@ -106,10 +142,18 @@
       "dest": "./resources/[standalone]/PolyZone"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 20000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/LegacyFuel",
       "ref": "master",
       "dest": "./resources/[standalone]/LegacyFuel"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 20000
     },
     {
       "action": "download_github",
@@ -118,10 +162,18 @@
       "dest": "./resources/[voice]/pma-voice"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 20000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-radio",
       "ref": "main",
       "dest": "./resources/[voice]/qb-radio"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 20000
     },
     {
       "action": "download_github",
@@ -130,10 +182,18 @@
       "dest": "./resources/[defaultmaps]/hospital_map"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 20000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/dealer_map",
       "ref": "main",
       "dest": "./resources/[defaultmaps]/dealer_map"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 20000
     },
     {
       "action": "download_github",
@@ -142,10 +202,18 @@
       "dest": "./resources/[defaultmaps]/prison_map"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 20000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-core",
       "ref": "main",
       "dest": "./resources/[qb]/qb-core"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 30000
     },
     {
       "action": "download_github",
@@ -154,10 +222,18 @@
       "dest": "./resources/[qb]/qb-scoreboard"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 20000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-adminmenu",
       "ref": "main",
       "dest": "./resources/[qb]/qb-adminmenu"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 30000
     },
     {
       "action": "download_github",
@@ -167,7 +243,7 @@
     },
     {
       "action": "waste_time",
-      "milliseconds": 10000
+      "milliseconds": 30000
     },
     {
       "action": "download_github",
@@ -176,10 +252,18 @@
       "dest": "./resources/[qb]/qb-target"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 30000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-vehiclesales",
       "ref": "main",
       "dest": "./resources/[qb]/qb-vehiclesales"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 30000
     },
     {
       "action": "download_github",
@@ -188,10 +272,18 @@
       "dest": "./resources/[qb]/qb-vehicleshop"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 30000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-houserobbery",
       "ref": "main",
       "dest": "./resources/[qb]/qb-houserobbery"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 30000
     },
     {
       "action": "download_github",
@@ -200,10 +292,18 @@
       "dest": "./resources/[qb]/qb-prison"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 30000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-hud",
       "ref": "main",
       "dest": "./resources/[qb]/qb-hud"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 30000
     },
     {
       "action": "download_github",
@@ -212,10 +312,18 @@
       "dest": "./resources/[qb]/qb-management"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 30000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-weed",
       "ref": "main",
       "dest": "./resources/[qb]/qb-weed"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 30000
     },
     {
       "action": "download_github",
@@ -224,10 +332,18 @@
       "dest": "./resources/[qb]/qb-lapraces"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 30000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-inventory",
       "ref": "main",
       "dest": "./resources/[qb]/qb-inventory"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 30000
     },
     {
       "action": "download_github",
@@ -236,10 +352,18 @@
       "dest": "./resources/[qb]/qb-houses"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 30000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-garages",
       "ref": "main",
       "dest": "./resources/[qb]/qb-garages"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 30000
     },
     {
       "action": "download_github",
@@ -248,10 +372,18 @@
       "dest": "./resources/[qb]/qb-ambulancejob"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 30000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-radialmenu",
       "ref": "main",
       "dest": "./resources/[qb]/qb-radialmenu"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 30000
     },
     {
       "action": "download_github",
@@ -260,10 +392,18 @@
       "dest": "./resources/[qb]/qb-crypto"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 30000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-weathersync",
       "ref": "main",
       "dest": "./resources/[qb]/qb-weathersync"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 30000
     },
     {
       "action": "download_github",
@@ -272,10 +412,18 @@
       "dest": "./resources/[qb]/qb-policejob"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 30000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-apartments",
       "ref": "main",
       "dest": "./resources/[qb]/qb-apartments"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 30000
     },
     {
       "action": "download_github",
@@ -284,10 +432,18 @@
       "dest": "./resources/[qb]/qb-vehiclekeys"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 30000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-mechanicjob",
       "ref": "main",
       "dest": "./resources/[qb]/qb-mechanicjob"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 30000
     },
     {
       "action": "download_github",
@@ -296,10 +452,18 @@
       "dest": "./resources/[qb]/qb-phone"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 30000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-vineyard",
       "ref": "main",
       "dest": "./resources/[qb]/qb-vineyard"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 30000
     },
     {
       "action": "download_github",
@@ -308,16 +472,28 @@
       "dest": "./resources/[qb]/qb-weapons"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 30000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-scrapyard",
       "ref": "main",
       "dest": "./resources/[qb]/qb-scrapyard"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 30000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-towjob",
       "ref": "main",
       "dest": "./resources/[qb]/qb-towjob"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 30000
     },
     {
       "action": "download_github",
@@ -327,7 +503,7 @@
     },
     {
       "action": "waste_time",
-      "milliseconds": 25000
+      "milliseconds": 60000
     },
     {
       "action": "download_github",
@@ -336,10 +512,18 @@
       "dest": "./resources/[qb]/qb-storerobbery"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 60000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-spawn",
       "ref": "main",
       "dest": "./resources/[qb]/qb-spawn"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 60000
     },
     {
       "action": "download_github",
@@ -348,16 +532,28 @@
       "dest": "./resources/[qb]/qb-smallresources"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 60000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-recyclejob",
       "ref": "main",
       "dest": "./resources/[qb]/qb-recyclejob"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 60000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-crafting",
       "ref": "main",
       "dest": "./resources/[qb]/qb-crafting"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 60000
     },
     {
       "action": "download_github",
@@ -367,7 +563,7 @@
     },
     {
       "action": "waste_time",
-      "milliseconds": 10000
+      "milliseconds": 60000
     },
     {
       "action": "download_github",
@@ -376,10 +572,18 @@
       "dest": "./resources/[qb]/qb-cityhall"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 60000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-truckrobbery",
       "ref": "main",
       "dest": "./resources/[qb]/qb-truckrobbery"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 60000
     },
     {
       "action": "download_github",
@@ -388,10 +592,18 @@
       "dest": "./resources/[qb]/qb-pawnshop"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 60000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-minigames",
       "ref": "main",
       "dest": "./resources/[qb]/qb-minigames"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 60000
     },
     {
       "action": "download_github",
@@ -400,10 +612,18 @@
       "dest": "./resources/[qb]/qb-taxijob"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 60000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-busjob",
       "ref": "main",
       "dest": "./resources/[qb]/qb-busjob"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 60000
     },
     {
       "action": "download_github",
@@ -412,10 +632,18 @@
       "dest": "./resources/[qb]/qb-newsjob"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 60000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-jewelery",
       "ref": "main",
       "dest": "./resources/[qb]/qb-jewelery"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 60000
     },
     {
       "action": "download_github",
@@ -424,10 +652,18 @@
       "dest": "./resources/[qb]/qb-bankrobbery"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 60000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-banking",
       "ref": "main",
       "dest": "./resources/[qb]/qb-banking"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 60000
     },
     {
       "action": "download_github",
@@ -436,10 +672,18 @@
       "dest": "./resources/[qb]/qb-clothing"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 60000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-hotdogjob",
       "ref": "main",
       "dest": "./resources/[qb]/qb-hotdogjob"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 60000
     },
     {
       "action": "download_github",
@@ -448,10 +692,18 @@
       "dest": "./resources/[qb]/qb-doorlock"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 60000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-garbagejob",
       "ref": "main",
       "dest": "./resources/[qb]/qb-garbagejob"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 60000
     },
     {
       "action": "download_github",
@@ -460,16 +712,28 @@
       "dest": "./resources/[qb]/qb-drugs"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 60000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-shops",
       "ref": "main",
       "dest": "./resources/[qb]/qb-shops"
     },
     {
+      "action": "waste_time",
+      "milliseconds": 60000
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-interior",
       "ref": "main",
       "dest": "./resources/[qb]/qb-interior"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 60000
     },
     {
       "action": "download_github",
@@ -479,13 +743,17 @@
     },
     {
       "action": "waste_time",
-      "milliseconds": 10000
+      "milliseconds": 60000
     },
     {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-input",
       "ref": "main",
       "dest": "./resources/[qb]/qb-input"
+    },
+    {
+      "action": "waste_time",
+      "milliseconds": 60000
     },
     {
       "action": "download_github",
