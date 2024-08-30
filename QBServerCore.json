@@ -101,6 +101,10 @@
       "dest": "./resources/[standalone]/LegacyFuel"
     },
     {
+      "action": "waste_time",
+      "seconds": 10
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/AvarianKnight/pma-voice",
       "ref": "main",
@@ -129,6 +133,10 @@
       "src": "https://github.com/qbcore-framework/prison_map",
       "ref": "main",
       "dest": "./resources/[defaultmaps]/prison_map"
+    },
+    {
+      "action": "waste_time",
+      "seconds": 10
     },
     {
       "action": "download_github",
@@ -233,6 +241,10 @@
       "dest": "./resources/[qb]/qb-ambulancejob"
     },
     {
+      "action": "waste_time",
+      "seconds": 10
+    },
+    {
       "action": "download_github",
       "src": "https://github.com/qbcore-framework/qb-radialmenu",
       "ref": "main",
@@ -285,6 +297,10 @@
       "src": "https://github.com/qbcore-framework/qb-vineyard",
       "ref": "main",
       "dest": "./resources/[qb]/qb-vineyard"
+    },
+    {
+      "action": "waste_time",
+      "seconds": 10
     },
     {
       "action": "download_github",
@@ -393,6 +409,10 @@
       "src": "https://github.com/qbcore-framework/qb-jewelery",
       "ref": "main",
       "dest": "./resources/[qb]/qb-jewelery"
+    },
+    {
+      "action": "waste_time",
+      "seconds": 10
     },
     {
       "action": "download_github",
